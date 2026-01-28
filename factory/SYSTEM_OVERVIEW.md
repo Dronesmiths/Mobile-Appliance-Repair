@@ -28,6 +28,11 @@
     - Dishwasher Repair
     - Microwave Repair
 
+- **Local SEO**:
+    - [Palmdale](https://d3jg5wepg4zxcs.cloudfront.net/locations/palmdale-appliance-repair/)
+    - [Lancaster](https://d3jg5wepg4zxcs.cloudfront.net/locations/lancaster-appliance-repair/)
+    - [Quartz Hill](https://d3jg5wepg4zxcs.cloudfront.net/locations/quartz-hill-appliance-repair/)
+
 ## 4. Maintenance Protocols
 - **To add a blog post**:
     1. Define content in `factory/scripts/generate_blog_batch.py`.
