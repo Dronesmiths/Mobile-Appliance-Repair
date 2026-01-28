@@ -35,10 +35,11 @@
 
 ## 4. Maintenance Protocols
 - **To add a blog post**:
-    1. Define content in `factory/scripts/generate_blog_batch.py`.
-    2. Run the script: `python3 factory/scripts/generate_blog_batch.py`.
-    3. Update sitemap: `python3 factory/scripts/update_sitemap.py`.
-    4. Deploy: `aws s3 sync ...` and invalidation.
+    1. Define content in `factory/scripts/generate_blog_batch.py` or new batch script.
+    2. Run generation script.
+    3. Run `python3 factory/scripts/generate_blog_hub.py` to update the index.
+    4. Update sitemap: `python3 factory/scripts/update_sitemap.py`.
+    5. Deploy: `aws s3 sync ...` and invalidation.
 
 ## 5. Deployment
 - **Method**: Git-driven deployment (AWS S3/CloudFront).
