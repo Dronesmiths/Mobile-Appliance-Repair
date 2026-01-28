@@ -131,15 +131,57 @@ blog_template = f"""<!DOCTYPE html>
 
 articles = [
     {
-        "slug": "welcome-to-our-new-site",
-        "title": "Welcome to Our New Professional Website",
-        "category": "Company News",
-        "description": "We are excited to launch our new digital home to better serve our clients.",
-        "lead_text": "Our commitment to excellence now has a digital home that reflects our standards.",
-        "tags": "News, Launch, Professional",
+        "slug": "5-signs-your-refrigerator-needs-repair",
+        "title": "5 Signs Your Refrigerator Needs Repair immediately",
+        "category": "Refrigerator Repair",
+        "description": "Is your fridge making noise or not cooling? Learn the 5 warning signs that indicate you need professional refrigerator repair in the Antelope Valley.",
+        "lead_text": "A broken refrigerator can lead to spoiled food and costly waste. Recognizing the early signs of failure can save you hundreds of dollars.",
+        "tags": "Refrigerator Repair, Troubleshooting, Maintenance",
         "content_body": '''
-            <h2>Commitment to Quality</h2>
-            <p>Our new website is designed to provide you with easy access to our services, expert advice via our blog, and a seamless way to get in touch for your next project.</p>
+            <h2>1. Food Spoilage</h2>
+            <p>If you notice your milk is going bad before its expiration date, or your veggies are wilting quickly, your fridge might struggle to maintain the correct temperature.</p>
+            <h2>2. Excessive Condensation</h2>
+            <p>Water pooling at the bottom of your fridge or droplets on the shelves indicates a cooling system failure or a worn door seal.</p>
+            <h2>3. Motor running Constantly</h2>
+            <p>Your refrigerator motor shouldn't run 24/7. If it is high-speed cycling or never shutting off, it's overworked and near failure.</p>
+            <h2>4. Strange Noises</h2>
+            <p>Buzzing, humming, or clicking sounds are often signs of a failing compressor or condenser fan.</p>
+            <h2>5. Freezer is Icing Over</h2>
+            <p>If your freezer looks like a winter wonderland, the defrost heater or timer might be broken.</p>
+        '''
+    },
+    {
+        "slug": "why-is-my-washer-not-spinning",
+        "title": "Why Is My Washer Not Spinning? Common Causes",
+        "category": "Washer Repair",
+        "description": "Washer filling with water but not spinning? Discover the common causes behind this issue and when to call a pro.",
+        "lead_text": "There's nothing worse than opening your washer to find a soaking wet pile of laundry. Here is why your machine might be refusing to spin.",
+        "tags": "Washer Repair, DIY Tips, Laundry Appliances",
+        "content_body": '''
+            <h2>Lid Switch Assembly</h2>
+            <p>The most common culprit is a broken lid switch. If the machine thinks the lid is open, it won't spin for safety reasons.</p>
+            <h2>Drive Belt</h2>
+            <p>On top-loaders, a loose or broken drive belt will prevent the drum from turning, even if the motor is running.</p>
+            <h2>Worn Clutch</h2>
+            <p>Just like a car, your washer has a clutch. If it wears out, the tub won't get up to speed.</p>
+            <h2>Drain Pump Blockage</h2>
+            <p>If the water can't drain, the safety cycle will prevent the spin. Check your filter for coins or socks!</p>
+        '''
+    },
+     {
+        "slug": "dryer-not-heating-troubleshooting",
+        "title": "Dryer Running But Not Heating? Here's Why",
+        "category": "Dryer Repair",
+        "description": "Is your dryer tumbling but leaving clothes damp? It could be a thermal fuse, heating element, or vent issue.",
+        "lead_text": "A dryer that doesn't heat is just a large, expensive fan. Before you buy a new one, check these common failure points.",
+        "tags": "Dryer Repair, Heating Issues, Fire Safety",
+        "content_body": '''
+            <h2>1. Clogged Vent Line</h2>
+            <p><strong>Safety Warning:</strong> A clogged dryer vent is a major fire hazard. It also causes the thermal fuse to blow, cutting off heat.</p>
+            <h2>2. Broken Heating Element</h2>
+            <p>Over time, the heating coil can burn out. This is a routine repair for our technicians.</p>
+            <h2>3. Thermal Fuse</h2>
+            <p>This safety device cuts power to the heater if the dryer gets too hot. If it blows, it needs to be replaced (and the blockage cleared!).</p>
         '''
     }
 ]

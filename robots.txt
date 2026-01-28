@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://avpoolbros.com/sitemap.xml
+Sitemap: https://d3jg5wepg4zxcs.cloudfront.net/sitemap.xml

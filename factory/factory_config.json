@@ -5,7 +5,7 @@
         "email": "[EMAIL_ADDRESS]",
         "address_city": "Antelope Valley",
         "address_state": "CA",
-        "domain": "[DOMAIN_NAME]"
+        "domain": "d3jg5wepg4zxcs.cloudfront.net"
     },
     "brand": {
         "primary_color": "#1F6AE1",
@@ -14,9 +14,9 @@
         "font_body": "'Open Sans', sans-serif"
     },
     "aws": {
-        "bucket_name": "[BUCKET_NAME]",
+        "bucket_name": "mobile-appliance-repair-av",
         "region": "us-east-1",
-        "cloudfront_id": "[DISTRIBUTION_ID]",
+        "cloudfront_id": "EJHA3NOOQCST7",
         "profile": "mediusa"
     },
     "seo": {
