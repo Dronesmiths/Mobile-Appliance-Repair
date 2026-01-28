@@ -1,0 +1,33 @@
+{
+    "client": {
+        "name": "Mobile Appliance Repair Service",
+        "phone": "661-498-4444",
+        "email": "[EMAIL_ADDRESS]",
+        "address_city": "Antelope Valley",
+        "address_state": "CA",
+        "domain": "[DOMAIN_NAME]"
+    },
+    "brand": {
+        "primary_color": "#1F6AE1",
+        "secondary_color": "#F0F0F0",
+        "font_heading": "'Poppins', sans-serif",
+        "font_body": "'Open Sans', sans-serif"
+    },
+    "aws": {
+        "bucket_name": "[BUCKET_NAME]",
+        "region": "us-east-1",
+        "cloudfront_id": "[DISTRIBUTION_ID]",
+        "profile": "mediusa"
+    },
+    "seo": {
+        "primary_keywords": [
+            "Appliance Repair",
+            "Mobile Repair Service"
+        ],
+        "service_area": [
+            "Antelope Valley",
+            "Palmdale",
+            "Lancaster"
+        ]
+    }
+}
