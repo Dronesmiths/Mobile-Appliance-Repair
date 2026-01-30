@@ -5,7 +5,7 @@
 - **Niche**: Appliance Repair (Antelope Valley)
 - **Domain**: d3jg5wepg4zxcs.cloudfront.net (Production)
 - **Phone**: 661-498-4444
-- **Email**: [EMAIL_ADDRESS]
+- **Email**: info@mobileappliancerepairav.com
 
 ## 2. Technical Stack
 - **Architecture**: Static HTML5/CSS3

@@ -32,7 +32,7 @@ def audit_files(directory, config):
     # Clean phone for regex/search
     RAW_PHONE = re.sub(r'\D', '', PHONE)
     
-    FORBIDDEN_WORDS = ["Diaz Landscaping", "Diaz", "Reed and Sons", "Artisan Bread", "Handyman"]
+    FORBIDDEN_WORDS = ["Diaz Landscaping", "Diaz", "Reed and Sons", "Artisan Bread", "Handyman", "Pool", "AV Pool Bros", "Pools"]
     
     html_files = []
     for root, dirs, files in os.walk(directory):
@@ -53,9 +53,12 @@ def audit_files(directory, config):
 
         # 1. Leakage Check
         for word in FORBIDDEN_WORDS:
-            if word.lower() in content.lower() and word.lower() != CLIENT_NAME.lower():
-                file_issues.append(f"CRITICAL: Found legacy branding/forbidden word '{word}'")
-                errors += 1
+            # Use regex for whole word match to avoid false positives like "pooling"
+            if re.search(r'\b' + re.escape(word) + r'\b', content, re.IGNORECASE):
+                # Special skip for the current client name
+                if word.lower() != CLIENT_NAME.lower():
+                    file_issues.append(f"CRITICAL: Found legacy branding/forbidden word '{word}'")
+                    errors += 1
 
         # 2. Identity Sync
         if PHONE not in content and "tel:" in content:

@@ -27,12 +27,12 @@ def generate_favicons(source_image_path):
         resized.save(f"images/{filename}")
         print(f"Generated: images/{filename}")
 
-    # 3. Main Logo & Social Share
+    # Main Logo & Social Share
     # Standard logo (matches footer usage)
     logo_size = (400, 150) # Maintain aspect ratio if possible, but for now fit to box
     img.thumbnail(logo_size, Image.Resampling.LANCZOS)
-    img.save("images/av-pool-bros-logo.png")
-    print("Generated: images/av-pool-bros-logo.png")
+    img.save("images/brand-logo.png")
+    print("Generated: images/brand-logo.png")
 
     img.save("images/logo-og.png")
     print("Generated: images/logo-og.png")
@@ -48,7 +48,8 @@ if __name__ == "__main__":
     sources = [
         "factory/brand_assets/authoritative-logo.png",
         "factory/brand_assets/PLACEHOLDER_LOGO.png",
-        "images/av-pool-bros-logo.png" 
+        "images/logo-full.webp",
+        "images/logo.webp"
     ]
     
     selected_source = None

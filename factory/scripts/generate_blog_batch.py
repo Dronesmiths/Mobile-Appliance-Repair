@@ -36,7 +36,7 @@ blog_template = f"""<!DOCTYPE html>
     <meta property="og:url" content="https://{DOMAIN}/blog/{{slug}}/">
     <meta property="og:title" content="{{title}}">
     <meta property="og:description" content="{{description}}">
-    <meta property="og:image" content="/images/logo-og.png">
+    <meta property="og:image" content="/images/hero-home.webp">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
