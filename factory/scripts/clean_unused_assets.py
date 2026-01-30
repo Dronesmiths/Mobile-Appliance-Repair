@@ -9,7 +9,7 @@ def get_all_project_files(project_root):
     
     for root, dirs, files in os.walk(project_root):
         # Exclude hidden and factory logic itself (optional, but we want to know if factory uses it)
-        if any(d in root for d in [".git", ".gemini", "node_modules", "__pycache__"]):
+        if any(d in root for d in [".git", ".gemini", "node_modules", "__pycache__", "factory"]):
             continue
 
         for file in files:
